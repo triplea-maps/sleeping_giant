@@ -1584,8 +1584,8 @@
       <option name="transportCost" value="2"/>
       <option name="artillerySupportable" value="true"/>
       <option name="isInfantry" value="true"/>
-      <option name="isParatroop" value="false"/>
-      <option name="isMechanized" value="false"/>
+      <option name="isAirTransportable" value="false"/>
+      <option name="isInfantry" value="false"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="armour" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="2"/>
@@ -1622,7 +1622,7 @@
       <option name="defense" value="4"/>
       <option name="canBombard" value="true"/>
       <option name="isSea" value="true"/>
-      <option name="isTwoHit" value="true"/>
+      <option name="hitPoints" value="2"/>
     </attachment>
     <attachment name="unitAttachment" attachTo="carrier" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="3"/>
@@ -1669,7 +1669,7 @@
       <option name="defense" value="3"/>
       <option name="canBombard" value="true"/>
       <option name="isSea" value="true"/>
-      <option name="isTwoHit" value="false"/>
+      <option name="hitPoints" value="1"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="S. W. Ontario" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="2"/>
@@ -2845,7 +2845,7 @@
     <property name="Kamikaze Airplanes" value="false" editable="true">
       <boolean/>
     </property>
-    <property name="Units repair at end of round" value="true" editable="true">
+    <property name="Units Repair Hits End Turn" value="true" editable="true">
       <boolean/>
     </property>
     <property name="Display Sea Names" value="true" editable="true">
