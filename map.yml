@@ -1,0 +1,3 @@
+map_name: sleeping_giant
+games:
+- {game_name: Sleeping Giant, file_name: Sleeping_Giant_v1.3.xml}
